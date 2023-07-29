@@ -15,8 +15,8 @@ To access country details for all countries, follow these simple steps:
 1. Total Gold: The total number of gold medals won by the country in all Olympics.
 2. Total Silver: The total number of silver medals won by the country in all Olympics.
 3. Total Bronze: The total number of bronze medals won by the country in all Olympics.
- In this all no. of medals details according to country is present medal tally and including player name with medals and event details is present in medal details 
- section.
+ - **In this all no. of medals details according to country is present medal tally and including player name with medals and event details is present in medal details 
+ section.**
 ## Accessing Athlete Profiles
 If you are interested in exploring athlete profiles for Information, here's how you can do it:
 1. After accessing the country details page, scroll down to the "Athletes profile" section.
