@@ -1,6 +1,7 @@
 # MedalMania
 Geek-A-Thon Project
 # Country details
+![](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2Jwa3pmcjE3anI2bDZoOGJoaG9iZjUzM291enR5cWR0ODA4a3hwZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sAfuCugkGzdOLlB5yg/giphy.gif)
 ## Introduction
 Welcome to our platform! In this document, we will provide you with information on how to access country details and athlete profiles for all countries of olampics. Whether you are a sports enthusiast, a researcher, or just curious about these games, our platform has you covered. Let's dive in!
 Accessing Country Details
