@@ -5,9 +5,12 @@ import numpy as np
 
 # To extract country name
 st.set_page_config(page_title="Countries Details", page_icon="🗺️")
-st.sidebar.header("Countries Details")
+# st.sidebar.header('''Countries Details
+#                   Medal Tally
+#                   Medal Details''')
 # Title of page
 st.title("Countries Details")
+st.write("The country details encompass comprehensive information, including the medal tally, detailed breakdown of medals won, and in-depth athlete profiles.")
 
 # Loading dictionary of countries dataset
 country_dict = pickle.load(open("E:\MedalMania\countries_dict.pkl", 'rb'))
