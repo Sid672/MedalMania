@@ -13,9 +13,9 @@ On our website, you can explore information, including the medal tally of each c
 
 [Olympic Summer & Winter Games, 1896-2022](https://www.kaggle.com/datasets/piterfm/olympic-games-medals-19862018)
 # Home
-
 On the homepage, we present our predictions for the medals won by different countries.
 
+![](https://github.com/Sid672/MedalMania/blob/master/images/home.png)
 # Country Details
 ## Introduction
 Accessing Country Details
@@ -28,15 +28,19 @@ To access country details for all countries, follow these simple steps:
 6. On this page, you will find comprehensive information about the country, including its history, of games and medals tally and medals details.
 ## Medal Tally 
 The "Medal Tally" showcases the outstanding achievements of each country, highlighting the number of gold, silver, and bronze medals they have won.
+
+![](https://github.com/Sid672/MedalMania/blob/master/images/medalTally.png)
 ## Medal Details
  This tab presents the medal details by country, featuring player names, medal type, and event specifics.  
 
+![](https://github.com/Sid672/MedalMania/blob/master/images/medalDetails.png)
 ## Athlete Profiles
 If you are interested in exploring athlete profiles for Information, here's how you can do it:
 1. After accessing the country details page, scroll down to the "Athletes profile" section.
 2. In this section, you will find a list of notable athletes from the respective country and medals.
 3. You can also explore the athlete's profile links.
-
+   
+![](https://github.com/Sid672/MedalMania/blob/master/images/AthleteProfile.png)
 
 ## Conclusion
 Our platform makes it easy for you to predict medal won by the countries and also provide access country details and athlete profiles . Whether you want to learn about the rich history of these countries or explore the achievements of their athletes, our platform has a wealth of information for you. Start exploring now and enjoy your journey into the world of sports and culture!
