@@ -8,7 +8,10 @@ On our website, you can explore information, including the medal tally of each c
 # Demo
 ![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3MwMmthdGRrOHZsenlucGJkYnVrdzc1cXZycHpwdjd0Z250N2V6biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YJ4mIJion8YFNYpHvY/giphy.gif)
 
+# Datasets 
+[Countries Olympics Medals since 1896](https://www.kaggle.com/datasets/surajjha101/countries-olympics-medals-since-1896)
 
+[Olympic Summer & Winter Games, 1896-2022](https://www.kaggle.com/datasets/piterfm/olympic-games-medals-19862018)
 # Home
 ## Introduction
 Welcome to this document where we will explore and discuss the process of navigating and evaluating the Olympic Medal Prediction Model on localhost. We will also touch upon the concept of 
