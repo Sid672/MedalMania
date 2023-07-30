@@ -1,5 +1,14 @@
-# MedalMania
-Geek-A-Thon Project
+# Medal Mania
+
+Welcome to the Geek-A-Thon project, an exciting data science and machine learning model to predict medals won by countries. Our cutting-edge model utilizes Randomforestregressor to forecast medal outcomes in various sports events.
+
+On our website, you can explore information, including the medal tally of each country, medal details, and comprehensive athlete profiles.
+
+
+# Demo
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3MwMmthdGRrOHZsenlucGJkYnVrdzc1cXZycHpwdjd0Z250N2V6biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YJ4mIJion8YFNYpHvY/giphy.gif)
+
+
 # Home
 ## Introduction
 Welcome to this document where we will explore and discuss the process of navigating and evaluating the Olympic Medal Prediction Model on localhost. We will also touch upon the concept of 
@@ -23,7 +32,6 @@ Overall, the concept of "
 " in the Olympic Medal Prediction Model on localhost represents the starting point and central hub of the model, providing users with an introduction to its features and serving as a gateway to further exploration and interaction.
 
 # Country details
-![](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2Jwa3pmcjE3anI2bDZoOGJoaG9iZjUzM291enR5cWR0ODA4a3hwZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sAfuCugkGzdOLlB5yg/giphy.gif)
 ## Introduction
 Welcome to our platform! In this document, we will provide you with information on how to access country details and athlete profiles for all countries of olampics. Whether you are a sports enthusiast, a researcher, or just curious about these games, our platform has you covered. Let's dive in!
 Accessing Country Details
