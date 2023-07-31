@@ -91,8 +91,8 @@ for i in new_pre:
 
 table_data = {
     'Country': map_country_name,
-    'Actual Values': l1,
-    'Predicted Values': l2
+    'Actual values of total medals': l1,
+    'Predicted values of total medals': l2
 }
 df1 = pd.DataFrame(table_data)
 
