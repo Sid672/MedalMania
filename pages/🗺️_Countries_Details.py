@@ -13,8 +13,8 @@ st.title("Countries Details")
 st.write("The country details encompass comprehensive information, including the medal tally, detailed breakdown of medals won, and in-depth athlete profiles.")
 
 # Loading dictionary of countries dataset
-country_dict = pickle.load(open("E:\MedalMania\countries_dict.pkl", 'rb'))
-results = pickle.load(open("E:\MedalMania\Results.pkl", 'rb'))
+country_dict = pickle.load(open("countries_dict.pkl", 'rb'))
+results = pickle.load(open("Results.pkl", 'rb'))
 
 # print(results.keys())
 
