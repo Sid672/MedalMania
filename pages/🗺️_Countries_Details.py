@@ -5,9 +5,7 @@ import numpy as np
 
 # To extract country name
 st.set_page_config(page_title="Countries Details", page_icon="🗺️")
-# st.sidebar.header('''Countries Details
-#                   Medal Tally
-#                   Medal Details''')
+
 # Title of page
 st.title("Countries Details")
 st.write("The country details encompass comprehensive information, including the medal tally, detailed breakdown of medals won, and in-depth athlete profiles.")
@@ -16,22 +14,17 @@ st.write("The country details encompass comprehensive information, including the
 country_dict = pickle.load(open("countries_dict.pkl", 'rb'))
 results = pickle.load(open("Results.pkl", 'rb'))
 
-# print(results.keys())
-
-
 def make_list(dF, col_name):
     l = []
     for i in country_dict[col_name].values():
         l.append(i)
     return l
 
-
 def make_list2(dictionary):
     l = []
     for i in dictionary.values():
         l.append(i)
     return l
-
 
 def Details_of(ct, medal_data):
     st.write(" " + ct.upper())
@@ -49,7 +42,7 @@ def Details_of(ct, medal_data):
     df = pd.DataFrame(table_data)
 
     st.dataframe(df, hide_index=True)
-    return
+    return None
 
 
 # Country name list
@@ -57,7 +50,7 @@ country_list = make_list(country_dict, 'countries ')
 # SearchBox
 selected_ct = st.selectbox('Search country', country_list)
 
-# Country code list
+#Making lists
 code_list = make_list(country_dict, 'ioc_code ')
 event_dis = make_list2(results['discipline_title'])
 event_title = make_list2(results['event_title'])
@@ -77,31 +70,20 @@ country_name_code = {}
 for i in range(0, len(country_list)):
     country_name_code[country_list[i].upper()] = code_list[i][1:4]
 
-# print(country_name_code)
 code_id = code_list1[country_name_code[selected_ct.upper()]]
-# print(code_id)
 medal_details = []
-
 for i in range(0, len(medal_type)):
     if (medal_type[i] == 'GOLD'):
-        medal_details.append(
-            [country_code_2[i], event_dis[i], event_title[i], medal_type[i], athlete_name[i], athletes_url[i]])
+        medal_details.append([country_code_2[i], event_dis[i], event_title[i], medal_type[i], athlete_name[i], athletes_url[i]])
     elif (medal_type[i] == 'SILVER'):
-        medal_details.append(
-            [country_code_2[i], event_dis[i], event_title[i], medal_type[i], athlete_name[i], athletes_url[i]])
+        medal_details.append([country_code_2[i], event_dis[i], event_title[i], medal_type[i], athlete_name[i], athletes_url[i]])
     elif (medal_type[i] == 'BRONZE'):
-        medal_details.append(
-            [country_code_2[i], event_dis[i], event_title[i], medal_type[i], athlete_name[i], athletes_url[i]])
-
-# print(medal_details)
-
-
-# print(event_dis)
+        medal_details.append([country_code_2[i], event_dis[i], event_title[i], medal_type[i], athlete_name[i], athletes_url[i]])
 
 if st.button('Details'):
     tab1, tab2, tab3 = st.tabs(
         ["Medal Tally 🏅", "Medal Details 📜", "Athlete Profiles ⛹️"])
-
+    
     with tab1:
 
         # Country gold list
