@@ -80,10 +80,7 @@ for i in id_list:
     map_country_name.append(data['countries '].iloc[i])
     map_code_list.append(data['ioc_code '].iloc[i])
 
-# print(map_country_name)
-
 countries = map_country_name
-
 
 l1 = []
 for i in val_y:
@@ -104,7 +101,6 @@ def main():
     st.write("The model accurately predicts medals for various countries in the Olympics. Its performance is evaluated using the absolute mean error, which measures the average difference between the predicted and actual medal counts. For the validation dataset, the absolute mean error achieved is 1.69.")
     st.write("Absolute Mean Error: ", val)
     st.dataframe(df1, hide_index=True)
-
 
 if __name__ == "__main__":
     main()
